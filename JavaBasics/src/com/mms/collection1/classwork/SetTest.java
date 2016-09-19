@@ -8,7 +8,7 @@ import java.util.TreeSet;
 public class SetTest {
 
 	public static void main(String args[]) {
-		Set studentSet = new HashSet<>();
+		Set<Integer> studentSet = new HashSet<Integer>();
 
 		studentSet.add(3);
 		studentSet.add(5);

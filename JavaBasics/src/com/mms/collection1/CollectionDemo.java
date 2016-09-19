@@ -11,7 +11,7 @@ import java.util.Set;
 public class CollectionDemo {
 	public static void main(String[] args) {
 	      // ArrayList 
-	      List a1 = new ArrayList();
+	      List<String> a1 = new ArrayList<String>();
 	      a1.add("Zara");
 	      a1.add("Mahnaz");
 	      a1.add("Ayan");
@@ -20,7 +20,7 @@ public class CollectionDemo {
 	      System.out.print("\t" + a1);
 
 	      // LinkedList
-	      List l1 = new LinkedList();
+	      List<String> l1 = new LinkedList<String>();
 	      l1.add("Zara");
 	      l1.add("Mahnaz");
 	      l1.add("Ayan");
